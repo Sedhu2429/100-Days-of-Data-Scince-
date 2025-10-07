@@ -1,3 +1,44 @@
 Try :
 
 Will Not Take Global Values
+
+
+
+| Exception           | Description                                   |
+| ------------------- | --------------------------------------------- |
+| `ValueError`        | Invalid value (e.g., converting "abc" to int) |
+| `TypeError`         | Operation on wrong type (e.g., `3 + "a"`)     |
+| `ZeroDivisionError` | Dividing by zero                              |
+| `FileNotFoundError` | File doesn’t exist                            |
+| `KeyError`          | Accessing a missing dictionary key            |
+| `IndexError`        | Accessing a missing list index                |
+| `ImportError`       | Module not found                              |
+| `PermissionError`   | No permission for file or resource            |
+| `Exception`         | Base class of all exceptions                  |
+
+
+Numpy
+
+[]  = single 
+[1,3,5 ,[1,4,5,6,]] = two d
+[
+    [
+        [1,2,3,4,5], [3,5,5,6,7]
+    ] , 
+    [
+        [4,5,6,7] , [4,5,6,7]
+    ]
+    
+     ] = three
+
+
+shape  = 2,3
+matrix
+count
+bool = index, filert
+zero = inti
+split
+slice
+
+
+
