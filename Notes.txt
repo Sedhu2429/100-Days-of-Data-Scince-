@@ -40,5 +40,53 @@ zero = inti
 split
 slice
 
+Linear → straight lines between points 📈
+
+Pad (Forward Fill) → repeats the last value ➡️
+
+Backfill → uses the next value ⬅️
+
+Polynomial → draws a smooth curved line 🎢
 
 
+
+Data  Frame Concat 
+final_data = pd.concat([data1,data2],ignore_index=True)
+
+
+df.loc[row_selection, column_selection]
+
+
+1️⃣ Predictive Model Imputation	KNN or Regression	Basic learning-based imputation
+2️⃣ Multiple Imputation (MICE)	Iterative Imputer	Statistical iterative replacement
+3️⃣ GAN-based Imputation (GAIN)	Deep learning generative approach	Synthetic + realistic filling
+
+
+
+1) Predictive Model Imputation	KNN or Regression
+
+from sklearn.impute import KNNImputer
+
+imputer = KNNImputer(n_neighbors=5)
+data_imputed = imputer.fit_transform(data)
+
+2)Multiple Imputation (MICE)	Iterative Imputer
+
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
+
+imputer = IterativeImputer(random_state=0)
+data_imputed = imputer.fit_transform(data)
+
+
+3)GAN-based Imputation (GAIN)	Deep learning generative approach
+
+# Pseudocode
+X_imputed = GAIN(X_missing, mask)
+
+
+
+
+trainig & testing split 
+
+optimization 
